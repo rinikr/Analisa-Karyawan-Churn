@@ -12,25 +12,35 @@ avg_monthly_hrs,department,filed_complaint,last_evaluation,n_projects,recently_p
 
 ## DEEP DIVE EDA
 1. Berapa rata rata, median, maksimum, minimum lama bekerja dan Bagaimana distribusi lama bekerja karyawan
+   
+   
 ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/33625fb4-b557-4743-9eb6-8a7e997b8c40)
 
 2. Berapa jumlah karyawan yang masih aktif dan berhenti
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/9ba5f0d2-26c4-4339-9814-8184715a7819)
+   
+
+![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/9ba5f0d2-26c4-4339-9814-8184715a7819)
 
 3. Bagaimana distribusi jam kerja bulanan untuk karyawan yang churn/left dan employed berdasarkan departemennya
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/c20a7b9d-ba85-4dda-84b6-ac5f4110bb10)
+   
+   
+![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/c20a7b9d-ba85-4dda-84b6-ac5f4110bb10)
 
-4. Bagaimana tingkat kepuasan karyawan yang left/churn dan yang employed
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/d4341328-5a45-47cc-b4b9-a51e477b0060)
+5. Bagaimana tingkat kepuasan karyawan yang left/churn dan yang employed
+   
+ ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/d4341328-5a45-47cc-b4b9-a51e477b0060)
 
-5. mencari rata rata tenure dari employee yang berhenti (churn) dan dan tidak churn
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/aeca9506-4c56-483d-83d5-1b56cb9a4b39)
+6. mencari rata rata tenure dari employee yang berhenti (churn) dan dan tidak churn
+   
+ ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/aeca9506-4c56-483d-83d5-1b56cb9a4b39)
 
-6. Bagaimana distribusi karyawan yang churn/left dan employed berdasarkan tenure di departemen
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/23d3ba18-6bd1-41ac-b6b8-83b89e8008c6)
+7. Bagaimana distribusi karyawan yang churn/left dan employed berdasarkan tenure di departemen
+    
+![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/23d3ba18-6bd1-41ac-b6b8-83b89e8008c6)
 
-7. Bagaimana distribusi karyawan yang churn/left dan employed di departemen berdasarkan proyek
-   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/073510f8-0197-48f3-a2a1-76fb688945a6)
+8. Bagaimana distribusi karyawan yang churn/left dan employed di departemen berdasarkan proyek
+   
+![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/073510f8-0197-48f3-a2a1-76fb688945a6)
 
 9. Perbandingan jumlah karyawan yang churn dan masih aktif berdasarkan departemen.
 
@@ -62,6 +72,8 @@ avg_monthly_hrs,department,filed_complaint,last_evaluation,n_projects,recently_p
 
 #### Model Comparison Classifier
   ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/98821e0f-0d76-45c6-8131-165d5009d164)
+
+  
 Random Forest:
 Algoritma Random Forest memiliki kinerja yang paling tinggi di antara semua algoritma yang
 dievaluasi . Ini ditunjukkan dengan nilai ROC AUC_Mean sebesar 97.44, yang menandakan bahwa model ini memiliki
@@ -70,7 +82,12 @@ mencapai 93.31 menunjukkan bahwa model ini mencapai keseimbangan yang baik antar
 
 #### Evaluation For Data Test
 ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/9fc6a95e-cc97-4efd-9997-5199a5c4cb93)
+
+
 ![image](https://github.com/rinikr/Analisa-Karyawan-Churn/assets/153416198/e72d852f-30b3-42f4-ab5b-4ca97c4dd5b6)
+
+
+
 True Positive (TP)
 adalah 1943, yang merupakan jumlah karyawan
 yang diprediksi aktif dan kenyataannya masih aktif . True Negative (TN)
